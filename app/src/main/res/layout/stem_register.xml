@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context=".StemRegister">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="cursive"
+                        android:gravity="center"
+                        android:text="Registration Page"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Stem Donor name"
+                        android:textColor="#fff"
+                        android:textColorHint="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+
+                        android:textColor="#fff"
+                        android:textColorHint="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Mail ID"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#fff"
+
+                        android:textColorHint="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/phno"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Phone Number"
+                        android:inputType="number"
+                        android:textColor="#fff"
+
+                        android:textColorHint="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/addr"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Address"
+                        android:textColor="#fff"
+
+                        android:textColorHint="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/adhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Pincode"
+                        android:inputType="none"
+                        android:textColor="#fff"
+
+                        android:textColorHint="#ffffff" />
+
+                    <EditText
+                        android:id="@+id/stemm"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Stem cell group"
+                        android:inputType="none"
+                        android:textColor="#fff"
+
+                        android:textColorHint="#ffffff" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lornea"
+                        android:textColor="#fff"
+                        />
+                    />
+
+                    <CheckBox
+                        android:id="@+id/check2"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:text="valves" />
+                    />
+
+
+                    <CheckBox
+                        android:id="@+id/check3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:text="Venis" />
+
+                    <CheckBox
+                        android:id="@+id/check4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:nextFocusRight="@id/check2"
+                        android:text="Tendons" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/check5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:nextFocusRight="@id/check2"
+                        android:textColor="#fff"
+                        android:text="Skin" />
+                    <CheckBox
+                        android:id="@+id/check6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:nextFocusRight="@id/check2"
+                        android:textColor="#fff"
+                        android:text="bones" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/register"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/cat_deisgn_submit"
+                        android:text="Register"
+                        android:textColor="#000000" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SaviourVault</string>
+    <string name="dialog_fire_missiles">Are You sure want to share Location?</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+
+</resources>

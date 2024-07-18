@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tt"
+    tools:context=".OrganDonorReg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#80000000"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:orientation="vertical"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    >
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="15dp"
+                        android:text="Registration Page"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        android:fontFamily="cursive"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <EditText
+                        android:id="@+id/username"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Donor name"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:background="@drawable/cat_deisgn"
+                        android:ems="10" />
+
+                    <EditText
+                        android:id="@+id/pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Password"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:ems="10"
+
+                        android:background="@drawable/cat_deisgn"
+                        android:inputType="textPassword" />
+                    <EditText
+                        android:id="@+id/mail"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Mail ID"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:ems="10"
+
+                        android:background="@drawable/cat_deisgn"
+                        />
+
+                    <EditText
+                        android:id="@+id/phno"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Phone Number"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_marginBottom="20dp"
+                        android:ems="10"
+
+                        android:background="@drawable/cat_deisgn"
+                        />
+
+                    <EditText
+                        android:id="@+id/addr"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Address"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:ems="10"
+
+                        android:background="@drawable/cat_deisgn"
+                        />
+                    <EditText
+                        android:id="@+id/adhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Pincode"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:ems="10"
+                        android:inputType="none"
+
+                        android:background="@drawable/cat_deisgn"
+                        />
+
+                    <EditText
+                        android:id="@+id/organ"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#fff"
+                        android:hint="Organ's name"
+                        android:textColorHint="#ffffff"
+                        android:gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:ems="10"
+                        android:inputType="none"
+
+                        android:background="@drawable/cat_deisgn"
+                        />
+                    <Button
+                        android:id="@+id/register"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/cat_deisgn_submit"
+
+                        android:layout_gravity="center"
+                        android:text="Register"
+                        android:textColor="#000000"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a1"
+    tools:context=".AdminDash">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#29000000"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="106dp"
+                    android:gravity="center"
+                    android:fontFamily="cursive"
+                    android:textColor="@color/colorAccent1"
+                    android:textStyle="bold"
+                    android:textSize="29dp"
+                    android:text="Dashboard" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:id="@+id/b1"
+                        android:background="@drawable/cat_deisgn"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/addtask"
+                            android:padding="35dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="View Blood Donor List"
+                            android:gravity="center"
+                            android:fontFamily="cursive"
+                            android:textColor="@color/colorAccent1"
+                            android:textStyle="bold"
+
+                            android:background="@drawable/cat_deisgn"
+                            android:textSize="20dp"
+                            android:layout_weight="1.5"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+
+                        android:id="@+id/vieworgan"
+                        android:background="@drawable/cat_deisgn"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/viewtask"
+                            android:padding="39dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="View Organ Donor List"
+                            android:gravity="center"
+                            android:fontFamily="cursive"
+
+                            android:textColor="@color/colorAccent1"
+                            android:textStyle="bold"
+                            android:background="@drawable/cat_deisgn"
+                            android:textSize="22dp"
+                            android:layout_weight="1.5"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:id="@+id/b3"
+                        android:background="@drawable/cat_deisgn"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/addtask"
+                            android:padding="35dp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="View Stem Donor"
+                            android:gravity="center"
+                            android:fontFamily="cursive"
+                            android:textColor="@color/colorAccent1"
+                            android:textStyle="bold"
+
+                            android:background="@drawable/cat_deisgn"
+                            android:textSize="20dp"
+                            android:layout_weight="1.5"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
